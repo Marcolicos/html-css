@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited{
+    color: darkred;
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+    
+}
+a:active{
+    color: yellow;
+}
+A::after{
+    content: ' [LINK]';
+    text-decoration: none;
+    font-weight: normal;
+    color: darkgray;
+
+}
+/*
+# = id
+. = classes
+: = pseudo classes
+:: = pseudo elementeos
+> = clildren
+
+
+
+*/

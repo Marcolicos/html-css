@@ -1,0 +1,25 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body{
+    font-family: 'dancing script',cursive;
+    font-size: 16px;
+    color: black;
+
+
+}
+h1,h2{
+
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-shadow: 1px 1px 2px #a58573;
+
+}
+main{
+    background-color: burlywood;
+    width: auto;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px #a58573;
+}
